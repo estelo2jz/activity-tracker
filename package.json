@@ -1,4 +1,5 @@
 {
+  "build": "node --max_old_space_size=8192 <entry_file_path> --progress --env.<dev/prod>",
   "name": "mern-exercise-tracker",
   "version": "0.1.0",
   "private": true,
